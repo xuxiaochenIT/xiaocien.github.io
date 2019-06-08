@@ -868,8 +868,8 @@
         el: '#comments' ,
         verify: true,
         notify: false,
-        appId: '6dpTn64BlB3dEdcvG7RI4pMo-gzGzoHsz',
-        appKey: 'rIRTS8vIL6Jx02cXPihaHN4c',
+        appId: '2GAowBD7dzm6snnYyXKwQge7-gzGzoHsz',
+        appKey: 'nQeGIe7LAairSrbdxFg0Ob27',
         placeholder: '别急，慢慢说',
         avatar:'mm',
         meta:guest,
@@ -1252,15 +1252,15 @@
     
 
     $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + "mtpW2sIlIHeJQk0FGq2ddMVQ-gzGzoHsz")
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + "2GAowBD7dzm6snnYyXKwQge7-gzGzoHsz")
         .done(function ({ api_server }) {
           var Counter = function (method, url, data) {
             return $.ajax({
               method: method,
               url: `https://${api_server}/1.1${url}`,
               headers: {
-                'X-LC-Id': "mtpW2sIlIHeJQk0FGq2ddMVQ-gzGzoHsz",
-                'X-LC-Key': "S8VWUb1LK61DctReez2JM8P1",
+                'X-LC-Id': "2GAowBD7dzm6snnYyXKwQge7-gzGzoHsz",
+                'X-LC-Key': "nQeGIe7LAairSrbdxFg0Ob27",
                 'Content-Type': 'application/json',
               },
               data: data,
